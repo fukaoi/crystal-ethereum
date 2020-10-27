@@ -1,5 +1,5 @@
 {
-  "name": "crystal-ethereum-sdk",
+  "name": "crystal-ethereum",
   "version": "0.1.0",
   "description": "This module is crystal sdk for ethereum client",
   "main": "",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solidum-particles/crystal-ethereum-sdk.git"
+    "url": "git+https://github.com/solidum-particles/crystal-ethereum.git"
   },
   "author": "fukaoi",
   "license": "MIT"

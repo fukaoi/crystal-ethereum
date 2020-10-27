@@ -1,10 +1,10 @@
-# crystal-ethereum-sdk
-[![Build Status](https://travis-ci.org/fukaoi/crystal-ethereum-sdk.svg?branch=master)](https://travis-ci.org/fukaoi/crystal-ethereum-sdk)
+# crystal-ethereum
+[![Build Status](https://travis-ci.org/fukaoi/crystal-ethereum.svg?branch=master)](https://travis-ci.org/fukaoi/crystal-ethereum)
 
 Client SDK for a ethereum,  Can doing about creates accounts, setting multisig, sends payment.
 this SDK dependency is [web3.js](https://github.com/ethereum/web3.js), [crystal-nodejs](https://github.com/fukaoi/crystal-nodejs), [ReasonML](https://reasonml.github.io/). And no need to install Node.JS, web3.js of the npm module, Because of the function of crystal-nodejs. If you want to know crystal-nodejs, read README of crystal-nodejs
 
-The main function as Account, Multisig, Payment has existed, there always run verify function after submit the transaction on ethereum network . So is the finallize response that return value of crystal-ethereum-sdk 
+The main function as Account, Multisig, Payment has existed, there always run verify function after submit the transaction on ethereum network . So is the finallize response that return value of crystal-ethereum 
 
 ## Installation
 
@@ -13,7 +13,7 @@ The main function as Account, Multisig, Payment has existed, there always run ve
    ```yaml
    dependencies:
      ethereum:
-       github: fukaoi/crystal-ethereum-sdk
+       github: fukaoi/crystal-ethereum
    ```
 
 2. Run `shards install`
@@ -191,7 +191,7 @@ Ethereum::Payment.send_by_signed(signed.rawTransaction)
 
 
 
-More example code, look at [this link](https://github.com/fukaoi/crystal-ethereum-sdk/tree/master/example)
+More example code, look at [this link](https://github.com/fukaoi/crystal-ethereum/tree/master/example)
 
 
 ## Development
@@ -242,7 +242,7 @@ crystal eval 'require "./src/ethereum";Ethereum.set_network(Ethereum::Network::M
 
 ## Contributing
 
-1. Fork it (<https://github.com/fukaoi/crystal-ethereum-sdk/fork>)
+1. Fork it (<https://github.com/fukaoi/crystal-ethereum/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
