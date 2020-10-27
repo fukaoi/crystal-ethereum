@@ -1,0 +1,28 @@
+{
+  "name": "crystal-ethereum-sdk",
+  "version": "0.1.0",
+  "description": "This module is crystal sdk for ethereum client",
+  "main": "",
+  "scripts": {
+    "build": "bsb -make-world && cp -r lib/js/src/ethereum/js/*.js ~/.crystal-nodejs/js/ethereum/",
+    "test": "jest --env node --detectOpenHandles"
+  },
+  "dependencies": {
+    "@aantron/repromise": "^0.6.1",
+    "@glennsl/bs-json": "^4.0.0",
+    "bs-platform": "^5.0.6",
+    "es6-promise": "^4.2.8",
+    "ethereum-input-data-decoder": "^0.2.0",
+    "refmt": "^1.13.7-1",
+    "web3": "^1.2.1"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidum-particles/crystal-ethereum-sdk.git"
+  },
+  "author": "fukaoi",
+  "license": "MIT"
+}

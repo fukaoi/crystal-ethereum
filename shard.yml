@@ -1,0 +1,26 @@
+name: ethereum
+version: 0.1.0
+
+authors:
+  - fukaoi
+
+crystal: 0.29.0
+
+license: MIT
+
+targets:
+  ethereum:
+    main: src/ethereum.cr
+
+scripts:
+  postinstall: make
+
+dependencies:
+  nodejs:
+    github: fukaoi/crystal-nodejs 
+    branch: master 
+
+development_dependencies:
+  ameba:
+    github: veelenga/ameba
+    version: 0.10.0
