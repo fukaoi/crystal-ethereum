@@ -12,7 +12,7 @@
     "@glennsl/bs-json": "^4.0.0",
     "bs-platform": "^5.0.6",
     "es6-promise": "^4.2.8",
-    "ethereum-input-data-decoder": "^0.2.0",
+    "ethereum-input-data-decoder": "^0.1.1",
     "refmt": "^1.13.7-1",
     "web3": "^1.2.1"
   },

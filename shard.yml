@@ -1,10 +1,10 @@
 name: ethereum
-version: 0.1.0
+version: 0.2.0
 
 authors:
   - fukaoi
 
-crystal: 0.29.0
+crystal: 1.00.0
 
 license: MIT
 
@@ -18,9 +18,9 @@ scripts:
 dependencies:
   nodejs:
     github: fukaoi/crystal-nodejs 
-    branch: master 
+    branch: main 
 
 development_dependencies:
   ameba:
     github: veelenga/ameba
-    version: 0.10.0
+    version: 0.14.3
