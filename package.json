@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@aantron/repromise": "^0.6.1",
-    "@glennsl/bs-json": "^4.0.0",
+    "@glennsl/bs-json": "^5.0.4",
     "bs-platform": "^5.0.6",
     "es6-promise": "^4.2.8",
     "ethereum-input-data-decoder": "^0.1.1",
