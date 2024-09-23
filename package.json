@@ -14,7 +14,7 @@
     "es6-promise": "^4.2.8",
     "ethereum-input-data-decoder": "^0.1.1",
     "refmt": "^1.13.7-1",
-    "web3": "^4.12.1"
+    "web3": "^4.13.0"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.7.0"
